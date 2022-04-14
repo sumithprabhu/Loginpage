@@ -1,0 +1,58 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: #0096FF;
+    
+}
+
+
+.Box{
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:white;
+    text-align: center;
+    border-radius: 25px;
+}
+.Box h1{
+    color:#0096FF; 
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.Box input[type="text"],.Box input[type="password"]{
+    
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid blue;
+    padding: 14px 10px;
+    width:220px;
+    color:Black;
+    border-radius: 26px;
+    transition: 0.25px;
+
+}
+.Box input[type="text"]:focus,.Box input[type="password"]:focus{
+    width: 270px;
+}
+.Box input[type="submit"]{
+    background: none;
+    margin: 20px auto;
+    display:block;
+    text-align: center;
+    border: 3px solid blue;
+    padding: 14px 10px;
+    width: 180px;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+.Box input[type="submit"]:hover{
+    background: #0096FF;
+}
